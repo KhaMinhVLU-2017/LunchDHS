@@ -1,0 +1,29 @@
+ress --no-save.main_first{
+  background:url('./Images/banner.jpg');
+  background:no-repeat;
+  background-position: center;
+  height: 400px;
+  background-attachment: fixed;
+}
+.first_header{
+  text-align: center;
+}
+.first_header > h3{
+  font-family: fantasy;
+  font-weight: bold;
+}
+
+@media (max-width: 432px){
+  .btn_home_order {
+    margin-left: 10px !important;
+  }
+  .btn_home_submit {
+    margin-left: 10px !important;
+  }
+}
+@media (max-width: 375px){
+  .btn_home_submit {
+    margin: 0 !important;
+    margin-top: 15px !important;
+  }
+}
